@@ -1,0 +1,29 @@
+.page-about {
+  height:100vh;
+  background-image: url("/src/assets/kart-garage-2.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display:flex;
+  flex-direction:wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+  .noms-equipe {
+  background-color: black;
+  width: 500px;
+  height: 500px;
+  padding:20px;
+  font-size: 20px;
+  margin:30px;
+  font-size: 22px;
+}
+
+img {
+  object-fit: contain;
+  height:800px;
+  width: 100%; 
+  margin: 30px;
+}
+}

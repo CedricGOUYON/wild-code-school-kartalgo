@@ -13,4 +13,13 @@
       background: linear-gradient(45deg, var(--color-primary-red), var(--color-primary-yellow));
       box-shadow: rgb(38, 57, 77) 0px 10px 10px -10px;
    
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 12px var(--color-black-button-shadow-hover);
+    }
+
+    &:active {
+      transform: scale(0.95);
+      box-shadow: 0 3px 6px var(--color-black-button-shadow-active);
+    }
     }
