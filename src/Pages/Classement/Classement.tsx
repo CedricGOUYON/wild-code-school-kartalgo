@@ -3,7 +3,7 @@ import "./Classement.css";
 
 function Classement() {
   const allScore = JSON.parse(localStorage.getItem("allScore") || "[]");
-  allScore.sort((a, b) => a.score - b.score);
+allScore.sort((a: { score: number }, b: { score: number }) => a.score - b.score);
 
   return (
     <div className="podium">

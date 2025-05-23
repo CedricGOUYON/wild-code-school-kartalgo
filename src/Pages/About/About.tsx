@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import "./About.css"
 
 function About () {
@@ -16,6 +17,10 @@ function About () {
 <p>Créer un jeu ludique pour initier les enfants à la magie des algorithmes en s’amusant !"
 </p>
 </article>
+
+    <Link to="/">
+    <button className="case-retour" type="button">Home</button>
+</Link>
 
     </div>
   );
