@@ -1,4 +1,5 @@
 .questions {
+  border: 4px dashed var(--color-primary-red);
   width: 350px;
   height: 680px;
   background-color: rgb(102, 99, 99);
@@ -17,6 +18,7 @@
     align-items: center;
 
     button {
+      cursor: pointer;
       border: none;
       height: 50px;
       width: 300px;
@@ -30,6 +32,15 @@
         var(--color-primary-yellow)
       );
       box-shadow: rgb(38, 57, 77) 0px 10px 10px -10px;
+      &:hover {
+        transform: scale(1.1);
+        box-shadow: 0 6px 12px var(--color-black-button-shadow-hover);
+      }
+
+      &:active {
+        transform: scale(0.95);
+        box-shadow: 0 3px 6px var(--color-black-button-shadow-active);
+      }
     }
   }
 
